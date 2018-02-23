@@ -4,26 +4,47 @@
   width: 300px;
   height: 300px;
   border: 1px solid black;
+}
+.house,.roof,.main-block,.chimney,.door,.window
+{
   position: relative;
 }
-.blue, .red, .yellow {
-  width: 100px;
-  height: 100px;
-  position: relative;
+.house {
+  width: 150px;
+  height: 150px;
+  background: coral;
+  left:50px;
 }
-.blue {
-  background: blue;
-  top: 150px;
-  left: 120px;
-  z-index:1;
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 100px solid red;
+    left:15px;
+    bottom: 300px;
 }
-.red {
-  background: red;
-  left: 70px;
+.chimney {
+  width: 20px;
+  height: 60px;
+  background: black;
+  left:50px;
+  bottom: 200px;
   z-index:0;
 }
-.yellow {
-  background:yellow;
-  left: 170px;
-  z-index:2;
+.door {
+   width: 60px;
+  height: 90px;
+  background: brown;
+  top:190px;
+  left:55px;
+  z-index:1;
+}
+.window {
+   width: 40px;
+  height: 40px;
+  background: cyan;
+  top:100px;
+  left:140px;
+  z-index:1;
 }
