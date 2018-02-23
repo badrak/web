@@ -1,1 +1,30 @@
-
+.main{
+	width: 710px;
+	height: 500px;
+	background: #81F7D8;
+}
+.world,.water,.wooden,.clouds{
+	position: absolute;
+}
+.world{
+	top:100px;
+	width: 700px;
+  	z-index:1;
+}
+.water{
+	width: 710px;
+	top:480px;
+	z-index:3;
+}
+.wooden{
+	width: 150px;
+	top:340px;
+  	left:30px;
+  	z-index:2;
+}
+.clouds{
+	width: 350px;
+  	z-index:0;
+  	left: 300px;
+  	top: -5px;
+}
