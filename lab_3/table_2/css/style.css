@@ -1,1 +1,22 @@
+.head {
+ text-align: center;
+ font-weight: bolder;
+ background-color: #80B327;
+ color: white;
+}
+.tabst {
+ width: 500px;
+ border-collapse: collapse;
+}
 
+td {
+ border: 1px solid black;
+}
+
+tr:nth-child(even) {
+ background-color: #E4FFB7;
+}
+
+ tr:nth-child(odd) {
+  background-color: #EFFFD2;
+}
