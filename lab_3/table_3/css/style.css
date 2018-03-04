@@ -1,1 +1,52 @@
+table {
+  width: 300px;
+  border-collapse: collapse;
+  border-top: 3px solid rgb(111,205,112);
+  border-bottom: 3px solid rgb(111,205,112);
+  border-left: 3px solid rgb(221,221,221);
+  border-right: 3px solid rgb(221,221,221);
+  text-align:center;
+}
 
+.textHead{
+  height:80px;
+  color: rgb(111,205,112);
+  font-weight:bold;
+  font-size:25px;
+}
+
+.price{
+  height:60px;
+  background:rgb(111,205,112);
+  color:white;
+  font-weight:bold;
+  font-size:30px;
+}
+
+td{
+  height:40px;
+  color:gray;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(247,247,247);
+}
+ 
+tr:nth-child(odd) {
+    background-color: white;
+}
+ 
+.buttonPos{
+  height:110px;
+}
+
+.themBott{
+  width:100px;
+	height:40px;
+	background: #fff;
+	border: solid 2px rgb(111,205,112);
+	border-radius: 6px;
+	color: rgb(111,205,112);
+	font-size: 16px;
+	font-weight: 600;
+}
