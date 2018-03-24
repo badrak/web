@@ -1,1 +1,49 @@
+.rectangle{
+	background: orange;
+	width: 120px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	bottom:50%;
+	left:40%;
+	right:0;
+	margin: auto;
+	z-index: 1;
+	visibility: hidden;
+}
+
+.square {
+	background: red;
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin: auto;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid green;
+  margin-left: 20%;
+  margin-top: 10%;
+  position: absolute;
+}
+
+#triangle-down{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid green;
+  transform: rotate(180deg);
+  margin-left: 20%;
+  margin-top: 30%;
+  position: absolute;
+}
 
