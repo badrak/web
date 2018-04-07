@@ -1,1 +1,49 @@
+.mini_square{
+	background: orange;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom:50%;
+	left:40%;
+	right:0;
+	z-index: 1;
+	visibility: hidden;
+}
 
+h1{
+	margin:auto;
+}
+
+.mini_square_2{
+	background: orange;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom:50%;
+	left:50%;
+	right:0;
+	z-index: 1;
+	visibility: hidden;
+}
+
+.square {
+	background: red;
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	top: 75%;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid green;
+  margin-left: 20%;
+  margin-top: 10%;
+  position: absolute;
+}
