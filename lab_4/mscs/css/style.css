@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+.full{
+	width: 100%;
+	background-color: rgb(113,158,187);
+	font-family: MyriadProSemibold, sans-serif;
+	color: rgb(61,61,83);
+	overflow: hidden;
+}
+.fullwrap{
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header{
+	background: url(../images/masthead.png);
+	width: 900px;
+	height: 100px;
+}
+.logo_1{
+	float: left;
+	padding: 15px;
+}
+a{
+	text-decoration: none;
+	width: 700px;
+	float: left;
+}
+.header_text{
+	padding-top: 12px;	
+}
+.first{
+	font-size: 25px;
+	color: rgb(61,61,83);
+}
+.second{
+	font-size: 10px;
+	color: rgb(126,130,144);
+	letter-spacing: 3px; 
+	line-height: 2;
+	font-weight: bold;
+}
+.accredited{
+	float: right;
+	width: 85px;
+	height: 82px;
+	padding-top: 10px;
+	padding-right: 22px;
+}
+.wrap{
+	background-color: rgb(255,255,255);
+	width: 900px;
+	display: block;
+	padding-top: 15px;
+	overflow: hidden;
+}
+.block_1{
+	background-color: rgb(223,230,236);
+	width: 876px;
+	height: auto;
+	padding-bottom: 30px;
+	margin: 0 12px;
+}
+.block_1_text{
+	font-size: 20px;
+	font-weight: bold;
+	width: 460px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+ul{
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.75;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.block_2{
+	width: 876px;
+	height: auto;
+	margin: 0 12px;
+}
+.block_2_text{
+	font-size: 15px;
+	font-weight: bold;
+	width: 460px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+form{
+	color: rgb(205,25,32);
+	text-align: center;
+	border-left: 5px solid rgb(223,230,236);
+	border-right: 5px solid rgb(223,230,236);
+	border-bottom: 5px solid rgb(223,230,236);
+	padding-bottom: 20px;
+	background-color: white;
+}
+.rec{
+	padding: 16px;
+	text-align: left;
+	padding-bottom: 0;
+	font-size: 13px;
+}
+table{
+	width: 310px;
+	border-collapse: collapse;
+	color: rgb(205,25,32);
+	background-color: white;
+}
+.tbimg{
+	width: 310px;
+	max-height: 172px;
+	border: 0;
+}
+.learn{
+	background-color: rgb(205,25,32);
+	color: white;
+	text-align: center;
+	border: 0;
+	width: 310px
+}
+td{
+	text-align: center;
+	border-left: 5px solid rgb(223,230,236);
+	border-right: 5px solid rgb(223,230,236);
+	width: 300px;
+}
+input{
+	width: 254px;
+	height: 30px;
+	margin: 10px;
+}
+select{
+	width: 254px;
+	height: 30px;
+	margin: 10px;
+}
+.but{
+	width: 100%;
+	padding-bottom: 25px;
+	float: none;
+}
+button{
+	width: 250px;
+	height: 42px;
+	border-radius: 5px;
+	background-color: rgb(18,11,208);
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: 0;
+}
+button:hover{
+	color: yellow;
+}
+button:active{
+	background-color: rgb(36,141,236);
+}
+.block_3{
+	width: 310px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	overflow: hidden;
+	position: relative;
+	top: 20px;
+	right: 30px;
+	float: right;
+	display: block;
+}
+.block_4{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 50px 0 0 40px;
+}
+.block_5{
+	padding: 20px 0 20px 40px;
+}
+.block_6{
+	width: 880px;
+	background-color: rgb(223,230,236);
+	font-size: 15px;
+	line-height: 1.5;
+	overflow: hidden;
+	margin: 0 auto 10px;
+}
+.block_A{
+	float: left;
+	width: 385px;
+	margin: 25px 30px;
+}
+.block_B{
+	width: 380px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+.text_A{
+	font-weight: bold;
+}
+.footer{
+	width: 100%;
+	background-color: rgb(113,158,187);
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	padding: 15px 0;
+}
